@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 # C:\Program Files\Python39\python.exe#!/usr/bin/env python3
 
-import json
 from tkinter import *
 import tkinter.messagebox as msg
 
-class Login(Tk):
-    '''creates log in window'''
+
+class LoginPage(Tk):
+    """
+    creates log in window
+    """
+
     def __init__(self):
         super().__init__()
         self.geometry('500x500')
@@ -35,20 +38,20 @@ class Login(Tk):
 
         # create login button
 
-        self.loginButton = Button(self, text="Login",command=self.verifyLogin)
+        self.loginButton = Button(self, text="Login", command=self.verifyLogin)
         self.loginButton.grid(row=2, column=1)
 
         # create register button
 
-        self.registerButton = Button(self, text="Register",)
+        self.registerButton = Button(self, text="Register", )
         self.registerButton.grid(row=2, column=0)
 
     # login function
     def verifyLogin(self):
         if self.username == '' or self.password == '':
-            msg.showwarning('empty field','please fill in all the options') 
+            msg.showwarning('empty field', 'please fill in all the options')
 
 
 if __name__ == '__main__':
-    myApp = Login()
+    myApp = LoginPage()
     myApp.mainloop()
