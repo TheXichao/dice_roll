@@ -1,0 +1,53 @@
+/* CSV */
+0466c8,0353a4,023e7d,002855,001845,001233,33415c,5c677d,7d8597,979dac
+
+/* With # */
+#0466c8, #0353a4, #023e7d, #002855, #001845, #001233, #33415c, #5c677d, #7d8597, #979dac
+
+/* Array */
+["0466c8","0353a4","023e7d","002855","001845","001233","33415c","5c677d","7d8597","979dac"]
+
+/* Object */
+{"True Blue":"0466c8","USAFA Blue":"0353a4","Dark Cornflower Blue":"023e7d","Oxford Blue":"002855","Oxford Blue 2":"001845","Oxford Blue 3":"001233","Independence":"33415c","Black Coral":"5c677d","Roman Silver":"7d8597","Manatee":"979dac"}
+
+/* Extended Array */
+[{"name":"True Blue","hex":"0466c8","rgb":[4,102,200],"cmyk":[98,49,0,22],"hsb":[210,98,78],"hsl":[210,96,40],"lab":[44,14,-58]},{"name":"USAFA Blue","hex":"0353a4","rgb":[3,83,164],"cmyk":[98,49,0,36],"hsb":[210,98,64],"hsl":[210,96,33],"lab":[36,12,-49]},{"name":"Dark Cornflower Blue","hex":"023e7d","rgb":[2,62,125],"cmyk":[98,50,0,51],"hsb":[211,98,49],"hsl":[211,97,25],"lab":[27,9,-40]},{"name":"Oxford Blue","hex":"002855","rgb":[0,40,85],"cmyk":[100,53,0,67],"hsb":[212,100,33],"hsl":[212,100,17],"lab":[16,7,-31]},{"name":"Oxford Blue","hex":"001845","rgb":[0,24,69],"cmyk":[100,65,0,73],"hsb":[219,100,27],"hsl":[219,100,14],"lab":[10,12,-31]},{"name":"Oxford Blue","hex":"001233","rgb":[0,18,51],"cmyk":[100,65,0,80],"hsb":[219,100,20],"hsl":[219,100,10],"lab":[6,7,-24]},{"name":"Independence","hex":"33415c","rgb":[51,65,92],"cmyk":[45,29,0,64],"hsb":[220,45,36],"hsl":[220,29,28],"lab":[27,2,-18]},{"name":"Black Coral","hex":"5c677d","rgb":[92,103,125],"cmyk":[26,18,0,51],"hsb":[220,26,49],"hsl":[220,15,43],"lab":[43,1,-14]},{"name":"Roman Silver","hex":"7d8597","rgb":[125,133,151],"cmyk":[17,12,0,41],"hsb":[222,17,59],"hsl":[222,11,54],"lab":[55,1,-11]},{"name":"Manatee","hex":"979dac","rgb":[151,157,172],"cmyk":[12,9,0,33],"hsb":[223,12,67],"hsl":[223,11,63],"lab":[65,1,-9]}]
+
+/* XML */
+<palette>
+  <color name="True Blue" hex="0466c8" r="4" g="102" b="200" />
+  <color name="USAFA Blue" hex="0353a4" r="3" g="83" b="164" />
+  <color name="Dark Cornflower Blue" hex="023e7d" r="2" g="62" b="125" />
+  <color name="Oxford Blue" hex="002855" r="0" g="40" b="85" />
+  <color name="Oxford Blue" hex="001845" r="0" g="24" b="69" />
+  <color name="Oxford Blue" hex="001233" r="0" g="18" b="51" />
+  <color name="Independence" hex="33415c" r="51" g="65" b="92" />
+  <color name="Black Coral" hex="5c677d" r="92" g="103" b="125" />
+  <color name="Roman Silver" hex="7d8597" r="125" g="133" b="151" />
+  <color name="Manatee" hex="979dac" r="151" g="157" b="172" />
+</palette>
+
+
+/* CSV */
+e0e2db,d2d4c8,b8bdb5,889696,5f7470
+
+/* With # */
+#e0e2db, #d2d4c8, #b8bdb5, #889696, #5f7470
+
+/* Array */
+["e0e2db","d2d4c8","b8bdb5","889696","5f7470"]
+
+/* Object */
+{"Alabaster":"e0e2db","Timberwolf":"d2d4c8","Ash Gray":"b8bdb5","Spanish Gray":"889696","Xanadu":"5f7470"}
+
+/* Extended Array */
+[{"name":"Alabaster","hex":"e0e2db","rgb":[224,226,219],"cmyk":[1,0,3,11],"hsb":[77,3,89],"hsl":[77,11,87],"lab":[90,-2,3]},{"name":"Timberwolf","hex":"d2d4c8","rgb":[210,212,200],"cmyk":[1,0,6,17],"hsb":[70,6,83],"hsl":[70,12,81],"lab":[84,-3,6]},{"name":"Ash Gray","hex":"b8bdb5","rgb":[184,189,181],"cmyk":[3,0,4,26],"hsb":[98,4,74],"hsl":[98,6,73],"lab":[76,-3,3]},{"name":"Spanish Gray","hex":"889696","rgb":[136,150,150],"cmyk":[9,0,0,41],"hsb":[180,9,59],"hsl":[180,6,56],"lab":[61,-5,-2]},{"name":"Xanadu","hex":"5f7470","rgb":[95,116,112],"cmyk":[18,0,3,55],"hsb":[169,18,45],"hsl":[169,10,41],"lab":[47,-9,0]}]
+
+/* XML */
+<palette>
+  <color name="Alabaster" hex="e0e2db" r="224" g="226" b="219" />
+  <color name="Timberwolf" hex="d2d4c8" r="210" g="212" b="200" />
+  <color name="Ash Gray" hex="b8bdb5" r="184" g="189" b="181" />
+  <color name="Spanish Gray" hex="889696" r="136" g="150" b="150" />
+  <color name="Xanadu" hex="5f7470" r="95" g="116" b="112" />
+</palette>

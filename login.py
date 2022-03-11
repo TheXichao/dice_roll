@@ -1,9 +1,6 @@
-#!/usr/bin/env python3
-# C:\Program Files\Python39\python.exe#!/usr/bin/env python3
-
 from tkinter import *
 import tkinter.messagebox as msg
-
+import game
 
 class LoginPage(Tk):
     """
@@ -50,7 +47,8 @@ class LoginPage(Tk):
     def verifyLogin(self):
         if self.username == '' or self.password == '':
             msg.showwarning('empty field', 'please fill in all the options')
-
+        else:
+            gamePage = game.GamePage()
 
 if __name__ == '__main__':
     myApp = LoginPage()
